@@ -39,11 +39,6 @@ const Home = ({ showToast }) => {
           
           {/* Brand/Hero Text Left Column */}
           <div className="lg:col-span-6 space-y-8 text-left animate-slide-up">
-            <div className="inline-flex items-center space-x-2 bg-primary-500/10 border border-primary-500/20 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider text-primary-300 uppercase">
-              <span>Empowerment Portal 2026</span>
-              <ArrowRight size={12} />
-            </div>
-
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
                 Empowering Women,<br />
