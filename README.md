@@ -8,7 +8,7 @@ password: admin12345
 
 
 
-# She Can Foundation — Contact Management System
+# She Can Foundation — Contact Management System.
 
 A production-ready, highly secure, and visually stunning Full-Stack contact portal and administrative control center built on the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). 
 
