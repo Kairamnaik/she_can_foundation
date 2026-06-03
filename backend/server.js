@@ -11,10 +11,14 @@ const contactRoutes = require('./routes/contactRoutes');
 dotenv.config();
 
 // Connect to MongoDB
-connectDB().then(() => {
-  // Seed admin user if db connection was successful
-  seedAdminUser();
-  seedContactMessages();
+connectDB().then((success) => {
+  if (success) {
+    // Seed admin user and contacts if db connection was successful
+    seedAdminUser();
+    seedContactMessages();
+  } else {
+    console.warn('Database connection failed. Seeding was skipped.');
+  }
 });
 
 const app = express();
