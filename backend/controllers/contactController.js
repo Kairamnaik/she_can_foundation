@@ -44,7 +44,12 @@ const createContact = async (req, res) => {
     });
   } catch (error) {
     console.error('Create contact error:', error.message);
-    res.status(500).json({ success: false, message: 'Server error while saving contact message' });
+    res.status(500).json({ 
+      success: false, 
+      message: 'Server error while saving contact message',
+      error: error.message,
+      stack: error.stack
+    });
   }
 };
 

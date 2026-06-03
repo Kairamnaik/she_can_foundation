@@ -37,7 +37,12 @@ const loginAdmin = async (req, res) => {
     }
   } catch (error) {
     console.error('Login error:', error.message);
-    res.status(500).json({ success: false, message: 'Server error during login' });
+    res.status(500).json({ 
+      success: false, 
+      message: 'Server error during login',
+      error: error.message,
+      stack: error.stack
+    });
   }
 };
 
