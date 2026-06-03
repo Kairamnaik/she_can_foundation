@@ -55,6 +55,16 @@ function App() {
           </Routes>
         </main>
 
+        {/* Footer Credits */}
+        <footer className="border-t border-slate-900 bg-slate-950/80 py-6 text-center text-xs text-slate-500">
+          <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p>&copy; 2026 She Can Foundation. All rights reserved.</p>
+            <p className="text-slate-600">
+              Designed by <span className="text-primary-450 hover:text-primary-400 font-semibold transition-colors duration-300">BHUKYA KAIRAM</span>
+            </p>
+          </div>
+        </footer>
+
         {/* Global Floating Toast Notifications Container */}
         <div className="fixed top-6 right-6 z-[100] flex flex-col gap-3 w-full max-w-sm pointer-events-none">
           {toasts.map((toast) => {
