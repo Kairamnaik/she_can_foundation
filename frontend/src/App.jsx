@@ -56,11 +56,11 @@ function App() {
         </main>
 
         {/* Footer Credits */}
-        <footer className="border-t border-slate-900 bg-slate-950/80 py-6 text-center text-xs text-slate-500">
-          <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p>&copy; 2026 She Can Foundation. All rights reserved.</p>
-            <p className="text-slate-600">
-              Designed by <span className="text-primary-450 hover:text-primary-400 font-semibold transition-colors duration-300">BHUKYA KAIRAM</span>
+        <footer className="bg-black/90 py-6 text-center text-xs border-t border-slate-900/60">
+          <div className="space-y-1">
+            <p className="text-slate-400 font-medium tracking-wide">&copy; 2026 She Can Foundation. All rights reserved.</p>
+            <p className="text-slate-500 uppercase tracking-wider text-[10px]">
+              Designed by <span className="text-slate-300 font-bold">BHUKYA KAIRAM</span>
             </p>
           </div>
         </footer>
