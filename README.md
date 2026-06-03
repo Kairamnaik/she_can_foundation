@@ -1,7 +1,7 @@
 Deployed Project Link : https://she-can-foundations-portal.vercel.app/login
 
 email: admin@shecanfoundation.org
-/
+&&
 password: admin12345
 
 
