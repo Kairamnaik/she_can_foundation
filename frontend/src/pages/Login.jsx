@@ -159,12 +159,6 @@ const Login = ({ showToast }) => {
             </button>
           </form>
         </div>
-
-        {/* Credentials hints card */}
-        <div className="p-4 rounded-2xl bg-slate-900/40 border border-white/5 text-center text-xs text-slate-400">
-          <span className="font-semibold text-slate-300">Default Credentials:</span><br />
-          Email: <code className="text-primary-300 bg-transparent p-0">admin@shecanfoundation.org</code> &bull; Password: <code className="text-primary-300 bg-transparent p-0">admin12345</code>
-        </div>
       </div>
     </div>
   );
