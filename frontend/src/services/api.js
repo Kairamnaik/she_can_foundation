@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://she-can-foundation-3dbq.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_URL || 
+  (import.meta.env.DEV ? 'http://localhost:5001/api' : 'https://she-can-foundation-3dbq.onrender.com/api');
 
 const api = axios.create({
   baseURL: API_URL,
